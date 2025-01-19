@@ -35,7 +35,7 @@ module.exports = {
       .setMinLength(1)
       .setMaxLength(256))
     .addStringOption(option => option.setName('embed-açıklamasını-giriniz')
-      .setDescription('Gömülü mesajın açıklamasını giriniz.')
+      .setDescription('Gömülü mesajın açıklamasını giriniz. (Alt satıra geçmek için \\n kullanabilirsiniz)')
       .setRequired(true)
       .setMinLength(1)
       .setMaxLength(4096))
@@ -54,9 +54,11 @@ module.exports = {
     const LogChannelID = interaction.options.getChannel('log-kanal-seçimi').id;
     const CategoryID = interaction.options.getChannel('talep-kategori-seçimi').id;
     const embedTitle = interaction.options.getString('embed-başlığını-giriniz');
-    const embedDescription = interaction.options.getString('embed-açıklamasını-giriniz');
+    const embedDescription = interaction.options.getString('embed-açıklamasını-giriniz').split('\\n').join('\n');
     const embedImage = interaction.options.getString('embed-resim-urlsi-giriniz');
     const embedThumbnail = interaction.options.getString('embed-küçük-resim-urlsi-giriniz');
+
+
 
     const createModal = (adet) => {
       const modal = new ModalBuilder()
