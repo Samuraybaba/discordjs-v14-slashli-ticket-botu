@@ -1,4 +1,16 @@
 const { Client, GatewayIntentBits, ModalBuilder, TextInputBuilder, AttachmentBuilder, ActionRowBuilder, EmbedBuilder, ChannelType, ButtonBuilder, TextInputStyle, PermissionFlagsBits, PermissionsBitField, ButtonStyle } = require("discord.js");
+// Web sunucusu (uptime için)
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Bot Aktif!');
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Web servisi aktif. PORT: ${PORT}`);
+});
 const Config = require("./Config.js");
 require("advanced-logs");
 const allIntents = Object.values(GatewayIntentBits);
