@@ -116,7 +116,7 @@ client.on("interactionCreate", async (interaction) => {
                         new EmbedBuilder()
                             .setTitle("⚠️ Hata!")
                             .setDescription(`⚠️ **Zaten bu sunucuda destek talebiniz bulunmaktadır.**\n✉️ **Talebinize <#${DejaUnChannel}>'a tıklayarak ulaşabilirsiniz.**\n👍 **Eğer erişiminiz yok ise yetkililerden destek talebinizi silmesini/tekrardan açmasını isteyiniz.**`)
-                            .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                            .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                             .setColor("Red"),],
                     ephemeral: true,
                 });
@@ -156,7 +156,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setTitle(`Destek Talebi`)
                         .setColor(0x0099ff)
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .addFields(
                             {
                                 name: `👍 **Destek talebiniz yetkililere bildirildi. Lütfen sabırla bekleyiniz.**`,
@@ -221,7 +221,7 @@ client.on("interactionCreate", async (interaction) => {
                         new EmbedBuilder()
                             .setTitle(`Başarısız!`)
                             .setColor("Red")
-                            .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                            .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                             .setDescription(`
                         ❌ **Bu kullanıcı sunucuda bulunamadığından destek talebine eklenemedi.**
                         `)
@@ -250,7 +250,7 @@ client.on("interactionCreate", async (interaction) => {
                 embeds: [new EmbedBuilder()
                     .setAuthor({ name: `Destek Sistemi`, iconURL: "https://media.discordapp.net/attachments/909508451712000051/1252681018620645436/alphalogo.png?ex=6686375c&is=6684e5dc&hm=0dbb9681e142fb7ba0ff6afa471bf2958e91e4e827ab6772d3d37a1d81021eda&=&format=webp&quality=lossless&width=80&height=80" })
                     .setColor("Green")
-                    .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                    .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                     .setDescription(`
                 🎫 **${targetMember} adlı üye destek talebine eklendi.**
                 ⭐ **Üyeyi Destek Talebine Ekleyen Yetkili:** <@${interaction.user.id}> **(** \`${interaction.user.id}\` **)**
@@ -267,7 +267,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setTitle(`Başarısız!`)
                         .setColor(`0x0099ff`)
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(`
                     ❌ **Bu kullanıcı sunucuda bulunamadığından destek talebinden çıkartılamadı.**
                     `)],
@@ -298,7 +298,7 @@ client.on("interactionCreate", async (interaction) => {
                     new EmbedBuilder()
                         .setAuthor({ name: `Destek Sistemi`, iconURL: "https://media.discordapp.net/attachments/909508451712000051/1252681018620645436/alphalogo.png?ex=6686375c&is=6684e5dc&hm=0dbb9681e142fb7ba0ff6afa471bf2958e91e4e827ab6772d3d37a1d81021eda&=&format=webp&quality=lossless&width=80&height=80" })
                         .setColor("2f3136")
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(`
                 🎫 **${targetMember} adlı üye destek talebinden çıkartıldı.**
                 ⭐ **Üyeyi Destek Talebinden Çıkartan Yetkili:** <@${interaction.user.id}> **(** \`${interaction.user.id}\` **)**
@@ -368,7 +368,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setTitle(`Başarısız!`)
                         .setColor(0x0099ff)
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(`
                     ❌ **Bu kullanıcı sunucudan ayrıldığı için destek talebini kapatamıyorum.**
                     👍 **Destek talebini silmek için aşağıdaki butona tıkla!**
@@ -427,7 +427,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setTitle(`Yönetici Üye Hatası!`)
                         .setColor(0x0099ff)
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(`
                     ⚠️ **Bu destek talebinin sahibi'nin yönetici yetkisi olduğu için kanalı kapatamazsınız!**
                     👍 **Aşağıdaki Destek Talebini Sil butonu ile kanalı silebilirsiniz.**
@@ -610,7 +610,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${channel.name}** isimli destek talebi kapatıldı!\n\n👤 **Destek Talebinin Sahibi:** <@${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)}> **(** ${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)} **)**\n🗑️ **Destek Talebini Kapatan Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**`
                         )],
@@ -621,7 +621,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${channel.name}** adlı destek talebiniz kapatıldı.\n\n🗑️ **Destek Talebinizi Kapatan Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**\n\nAşağıdaki yıldız butonlarına tıklayarak destek talebinizi değerlendirebilirsiniz.`
                         )],
@@ -656,7 +656,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${channel.name}** isimli destek talebi kapatıldı!\n\n👤 **Destek Talebinin Sahibi:** <@${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)}> **(** ${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)} **)**\n🗑️ **Destek Talebini Kapatan Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**`
                         )]
@@ -666,7 +666,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${channel.name}** adlı destek talebiniz kapatıldı.\n\n🗑️ **Destek Talebinizi Kapatan Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**\n\nAşağıdaki yıldız butonlarına tıklayarak destek talebinizi değerlendirebilirsiniz.`
                         )],
@@ -706,7 +706,7 @@ client.on("interactionCreate", async (interaction) => {
                 embeds: [new EmbedBuilder()
                     .setTitle(`Destek Talebi Kapatıldı!`)
                     .setColor(0x0099ff)
-                    .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                    .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                     .setDescription(`
           🔒 **Destek talebi başarıyla kapatıldı!**
           👤 **Destek talebini kapatan kişi:** <@${interaction.user.id}>
@@ -780,7 +780,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setTitle(`Başarısız!`)
                         .setColor(`0x0099ff`)
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(`
                         🔒 **Bu kullanıcı sunucudan ayrıldığı için bileti açamıyorum.**
                         👍 **Destek talebini için aşağıdaki butona tıkla!**
@@ -815,7 +815,7 @@ client.on("interactionCreate", async (interaction) => {
                 embeds: [new EmbedBuilder()
                     .setTitle(`Destek Talebi Tekrardan Açıldı!`)
                     .setColor(0x0099ff)
-                    .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                    .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                     .setDescription(`
                     🔓 **Destek talebi tekrardan açıldı!**
                     👤 **Destek biletini açan kişi:** <@${interaction.user.id}>
@@ -850,7 +850,7 @@ client.on("interactionCreate", async (interaction) => {
                         new EmbedBuilder()
                             .setTitle(`Başarısız!`)
                             .setColor(0x0099ff)
-                            .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                            .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                             .setDescription(`
                         ❌ **Bu kullanıcı sunucudan ayrıldığı için destek talebini kapatamıyorum.**
                         👍 **Destek talebini silmek için aşağıdaki butona tıkla!**
@@ -883,7 +883,7 @@ client.on("interactionCreate", async (interaction) => {
                         new EmbedBuilder()
                             .setTitle(`Yönetici Üye Hatası!`)
                             .setColor(0x0099ff)
-                            .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                            .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                             .setDescription(`
                         ⚠️ **Bu destek talebinin sahibi'nin yönetici yetkisi olduğu için kanalı kapatamazsınız!**
                         👍 **Aşağıdaki Destek Talebini Sil butonu ile kanalı silebilirsiniz.**
@@ -982,7 +982,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${channel.name}** isimli destek talebi kapatıldı!\n\n👤 **Destek Talebinin Sahibi:** <@${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)}> **(** ${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)} **)**\n🗑️ **Destek Talebini Kapatan Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**`
                         )],
@@ -993,7 +993,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${channel.name}** adlı destek talebiniz kapatıldı.\n\n🗑️ **Destek Talebinizi Kapatan Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**\n\nAşağıdaki yıldız butonlarına tıklayarak destek talebinizi değerlendirebilirsiniz.`
                         )],
@@ -1028,7 +1028,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${channel.name}** isimli destek talebi kapatıldı!\n\n👤 **Destek Talebinin Sahibi:** <@${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)}> **(** ${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)} **)**\n🗑️ **Destek Talebini Kapatan Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**`
                         )]
@@ -1038,7 +1038,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${channel.name}** adlı destek talebiniz kapatıldı.\n\n🗑️ **Destek Talebinizi Kapatan Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**\n\nAşağıdaki yıldız butonlarına tıklayarak destek talebinizi değerlendirebilirsiniz.`
                         )],
@@ -1079,7 +1079,7 @@ client.on("interactionCreate", async (interaction) => {
                     new EmbedBuilder()
                         .setTitle(`Destek Talebi Kapatıldı!`)
                         .setColor(0x0099ff)
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(`
                       🔒 **Destek talebi başarıyla kapatıldı!**
                       👤 **Destek talebini kapatan kişi:** <@${interaction.user.id}>
@@ -1189,7 +1189,7 @@ client.on("interactionCreate", async (interaction) => {
                         embeds: [new EmbedBuilder()
                             .setAuthor({ name: "Destek Sistemi" })
                             .setColor('2f3136')
-                            .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                            .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                             .setDescription(
                                 `🎫 **${channel.name}** isimli destek talebi silindi!\n\n👤 **Destek Talebinin Sahibi:** <@${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)}> **(** ${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)} **)**\n🗑️ **Destek Talebini Silen Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**`
                             )],
@@ -1200,7 +1200,7 @@ client.on("interactionCreate", async (interaction) => {
                         embeds: [new EmbedBuilder()
                             .setAuthor({ name: "Destek Sistemi" })
                             .setColor('2f3136')
-                            .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                            .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                             .setDescription(
                                 `🎫 **${channel.name}** adlı destek talebiniz silindi.\n\n🗑️ **Destek Talebinizi Silen Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**\n\nAşağıdaki yıldız butonlarına tıklayarak destek talebinizi değerlendirebilirsiniz.`
                             )],
@@ -1235,7 +1235,7 @@ client.on("interactionCreate", async (interaction) => {
                         embeds: [new EmbedBuilder()
                             .setAuthor({ name: "Destek Sistemi" })
                             .setColor('2f3136')
-                            .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                            .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                             .setDescription(
                                 `🎫 **${channel.name}** isimli destek talebi silindi!\n\n👤 **Destek Talebinin Sahibi:** <@${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)}> **(** ${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)} **)**\n🗑️ **Destek Talebini Silen Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**`
                             )]
@@ -1245,7 +1245,7 @@ client.on("interactionCreate", async (interaction) => {
                         embeds: [new EmbedBuilder()
                             .setAuthor({ name: "Destek Sistemi" })
                             .setColor('2f3136')
-                            .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                            .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                             .setDescription(
                                 `🎫 **${channel.name}** adlı destek talebiniz silindi.\n\n🗑️ **Destek Talebinizi Silen Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**\n\nAşağıdaki yıldız butonlarına tıklayarak destek talebinizi değerlendirebilirsiniz.`
                             )],
@@ -1280,7 +1280,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${interaction.channel.name}** isimli destek talebi silindi!\n\n👤 **Destek Talebini Oluşturan:** <@${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)}> **(** ${GuildDatas.get(`${interaction.guild.id}.TicketSystem.Tickets.${interaction.channel.id}.AuthorID`)} **)**\n🗑️ **Destek Talebini Silen Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**`
                         )]
@@ -1290,7 +1290,7 @@ client.on("interactionCreate", async (interaction) => {
                     embeds: [new EmbedBuilder()
                         .setAuthor({ name: "Destek Sistemi" })
                         .setColor('2f3136')
-                        .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                        .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                         .setDescription(
                             `🎫 **${interaction.channel.name}** adlı destek talebiniz silindi.\n\n🗑️ **Destek Talebini Silen Yetkili:** <@${interaction.user.id}> **(** ${interaction.user.id} **)**\n\nAşağıdaki yıldız butonlarına tıklayarak destek talebinizi değerlendirebilirsiniz.`
                         )],
@@ -1503,7 +1503,7 @@ client.on("interactionCreate", async (interaction) => {
                 embeds: [new EmbedBuilder()
                     .setTitle("Bir üye talebi değerlendirdi.")
                     .setDescription(`**${interaction.user.username}** adlı kullanıcı, kapatılan **${channelName}** \`(${channelId})\` adlı talebi değerlendirdi.\nTalebe **5** üzerinden **${numberPart}** puan verdi.`)
-                    .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                    .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                     .setTimestamp()
                     .setColor("DarkBlue")
                 ]
@@ -1533,7 +1533,7 @@ client.on("interactionCreate", async (interaction) => {
                     .setTitle("Bir üye talebi değerlendirdi.")
                     .setDescription(`**${interaction.user.username}** adlı kullanıcı, silinen **${channelName}** \`(${channelId})\` adlı talebi değerlendirdi.\nTalebe **5** üzerinden **${numberPart}** puan verdi.`)
                     .setTimestamp()
-                    .setFooter({ text: "Bu altyapı Tyial tarafından kodlanmış ve paylaşılmıştır." })
+                    .setFooter({ text: "Ravix Support ile 7/24 kesintisiz hizmet!" })
                     .setColor("DarkBlue")
                 ]
             })
