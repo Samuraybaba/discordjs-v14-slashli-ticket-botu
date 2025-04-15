@@ -1563,4 +1563,4 @@ process.on('uncaughtExceptionMonitor', (err, origin) => {
 // CrashHandler ------------------------------------------------------------------------------------------------
 
 // Botu Kullanmadan README.md dosyasını okuyun!
-client.login(.env(token));
+client.login(process.env.token);
