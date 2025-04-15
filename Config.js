@@ -1,5 +1,5 @@
 module.exports = {
     // Botu Kullanmadan README.md dosyasını okuyun!
-    "Token": ""
+    "Token": ".env"token""
     // Botu Kullanmadan README.md dosyasını okuyun!
 }
